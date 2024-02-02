@@ -88,7 +88,7 @@ class Library:
             print("この本は貸し出されていないです。" if book else "この本(ISBN)は見つかりません")    
             return False
 
-    def search_book(self,isbn :int) -> Book | None:
+    def display_book_info(self,isbn :int) -> Book | None:
         """本を検索  Bookのisbnを受け取り、Bookの情報を表示
 
         Args:
