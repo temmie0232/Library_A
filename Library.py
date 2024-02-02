@@ -135,4 +135,4 @@ if __name__ == "__main__":
         print("処理に失敗しました")
 
     # 本の検索
-    A.search_book(11110000)
+    A.display_book_info(11110000)
