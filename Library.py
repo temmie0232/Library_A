@@ -10,7 +10,7 @@ class Book:
             title (str): 本のタイトル
             author (str): 本の作者
             isbn (int): 本のisbnコード
-            status (bool, optional): 本の貸出状態  True->貸出中  True->返却済み
+            status (bool, optional): 本の貸出状態  True->貸出中  Fals->返却済み
             
             ////////
             Bookのインスタンスのisbnをキーとして、その他をバリューにするといい？
